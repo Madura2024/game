@@ -36,7 +36,7 @@ body {
   background: var(--card-bg);
   padding: 2rem;
   border-radius: 12px;
-  box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
 }
 
 input {
@@ -61,7 +61,8 @@ button:active {
   transform: scale(0.95);
 }
 
-.start-btn, .restart-btn {
+.start-btn,
+.restart-btn {
   background: var(--secondary);
   color: #000;
   padding: 12px 24px;
@@ -83,9 +84,17 @@ button:active {
 }
 
 @keyframes pulse {
-  0% { box-shadow: 0 0 0 0 rgba(255, 0, 85, 0.7); }
-  70% { box-shadow: 0 0 0 20px rgba(255, 0, 85, 0); }
-  100% { box-shadow: 0 0 0 0 rgba(255, 0, 85, 0); }
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 0, 85, 0.7);
+  }
+
+  70% {
+    box-shadow: 0 0 0 20px rgba(255, 0, 85, 0);
+  }
+
+  100% {
+    box-shadow: 0 0 0 0 rgba(255, 0, 85, 0);
+  }
 }
 
 .leaderboard {
@@ -99,7 +108,7 @@ button:active {
 }
 
 .leaderboard li {
-  background: rgba(255,255,255,0.05);
+  background: rgba(255, 255, 255, 0.05);
   margin: 5px 0;
   padding: 10px;
   border-radius: 6px;
